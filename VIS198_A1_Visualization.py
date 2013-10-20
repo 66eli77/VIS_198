@@ -12,7 +12,7 @@ c = []
 
 for i in range(20):
 	length_day = len(mydata[i]["datapoints"])
-	# adding a filter to avoid 'null' in the list
+	# adding a filter to avoid 'null' in the list.
 	total_day = sum(filter(None, list(zip(*mydata[i]["datapoints"][(length_day - 8640):length_day])[0])))
 	avg_day = float(total_day / 8640)
 	a.append(avg_day)
