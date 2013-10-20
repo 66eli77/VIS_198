@@ -43,8 +43,8 @@ m = np.arange(20)
 n = np.asarray(c)
 area3 = np.pi * np.asarray(c) **0.6
 
-plt.scatter(x, y, s=area1, alpha=0.15, color = 'red')  # minut
-plt.scatter(q, p, s=area2, alpha=0.15, color = 'blue')  # hour
-plt.scatter(m, n, s=area3, alpha=0.15, color = 'yellow')  # day
+plt.scatter(x, y, s=area1, alpha=0.4, color = 'red')  # minut
+plt.scatter(q, p, s=area2, alpha=0.4, color = 'blue')  # hour
+plt.scatter(m, n, s=area3, alpha=0.4, color = 'yellow')  # day
 
 plt.show()
